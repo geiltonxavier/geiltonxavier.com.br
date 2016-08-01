@@ -1,0 +1,44 @@
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+disqus: geiltonxavier
+google_analytics: geiltonxavier
+title: Geilton Xavier
+url: "https://geiltonxavier.com.br"
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: #Geilton Xavier
+
+description: Blog Geilton Xavier
+author:  
+  name: Geilton Xavier 
+  email: geilton@live.com
+  github: geiltonxavier
+  linkedin: geiltonxavier  
+  bio: Desenvolvedor back-end há 5 anos, com experiência nas linguagens Ruby e C#. 
+  email_md5: fb96f273ef030abbc07a7fb05e0fa9fc
+  
+blog:
+  name: Geilton Xavier
+  bio: Blog sobre desenvolvimento web com foco em ASP.NET utilizando a linguagem C#
+  email_md5: 9cdd57153917e412a6f41fdd9fe41d17
+
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+about_path: about.html
+
+# set it as url of an image
+sidebar_background_image: https://www.dropbox.com/s/dyfij8oopm7k1ld/sidebar_blog_geilton2.jpg?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate
